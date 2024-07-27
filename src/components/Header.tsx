@@ -1,11 +1,9 @@
 import React from "react";
 
-export default function Footer(props:any) {
+export default function Header() {
   return (
-    <div className="mt-3">
-      <p className="text-secondary text-center">
-        Copyright © {props.year} {props.fullName} {props.studentId}
-      </p>
+    <div>
+      <h4 className="display-4 fst-italic text-center">Todo List</h4>
     </div>
   );
 }
